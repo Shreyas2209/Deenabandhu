@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.activities {
+  margin-top: 40px;
+  padding: 0px 30px;
+}
+.Cards {
+  width: 100%;
+}
+.cardHead {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cardPara {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .activities {
+    padding: 0px 60px;
+  }
+
+  .Cards {
+    display: flex;
+  }
+
+  .cardPara {
+    width: 50%;
+    margin: 0px 150px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .activities {
+    padding: 0px 100px;
+  }
+  .cardPara {
+    width: 50%;
+    margin: 0px 300px;
+    margin-bottom: 30px;
+  }
+}
